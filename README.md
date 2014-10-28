@@ -1,5 +1,5 @@
 
-qqqqqqNew media video capture plugin for phonegap using media recorder
+New media video capture plugin for phonegap using media recorder
 =======
 
 
@@ -7,6 +7,7 @@ How to install the plugin
 -----------
 
 1. Install the plugin with this command 
+
 `phonegap.cmd plugin add ..\com.phonegap.newmedia`
 2. Copy the **MediaRecorderRecipe.java** to the directory of your main activity java file.
 3. From the layout folder, copy the xml file to the layout folder of your phonegap project `[project_name]\platforms\android\res\layout\`
@@ -17,7 +18,7 @@ How to install the plugin
 How to use the javascript
 -----------
 
-`
+```
 // start the camera activity
 NewMedia.startRecord(captureSuccess, captureError, {
 	"bitrate": 700000,
@@ -36,4 +37,4 @@ function captureSuccess(data) {
 function captureError(error) {
     console.log("camera failed ", error);
 }
-`
+```
