@@ -7,8 +7,8 @@ How to install the plugin
 -----------
 
 1. Install the plugin with this command 
-
-`phonegap.cmd plugin add ..\com.phonegap.newmedia`
+```
+phonegap.cmd plugin add ..\com.phonegap.newmedia```
 2. Copy the **MediaRecorderRecipe.java** to the directory of your main activity java file.
 3. From the layout folder, copy the xml file to the layout folder of your phonegap project `[project_name]\platforms\android\res\layout\`
 4. From the drawable folder, copy the files to the drawable folder of your phonegap project `[project_name]platforms\android\res\drawable\`
